@@ -6,9 +6,9 @@ import com.emazon.api_stock.web.dto.DtoCategoryResponse;
 import org.mapstruct.Mapper;
 
 
+
 @Mapper(componentModel = "spring")
 public interface CategoryMapper {
-
 
     DtoCategoryResponse categoryToDtoCategory(Category category);
 

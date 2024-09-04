@@ -39,7 +39,7 @@ dependencies {
 
 	// Conector MySQL
 	runtimeOnly 'com.mysql:mysql-connector-j'
-
+	//runtimeOnly 'com.h2database:h2'
 	// Dependencias para pruebas
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
